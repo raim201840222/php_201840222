@@ -10,7 +10,7 @@ class Table{
     }
     // 테이블 생성
     public function createTable($name, array $fields){
-        echo "테이블을 생성합니다.<br>";
+        //echo "테이블을 생성합니다.<br>";
         $query = "
             CREATE TABLE `".$name."` (
             `id` int(11) NOT NULL AUTO_INCREMENT,
