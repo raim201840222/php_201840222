@@ -1,5 +1,5 @@
 <?php
-
+	echo "중간고사";
     $loop = true;
     $i = 1;
     while($loop){
